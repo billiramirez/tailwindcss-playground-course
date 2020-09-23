@@ -1,0 +1,17 @@
+{
+  "name": "food-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build css/tailwind.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
+  }
+}
